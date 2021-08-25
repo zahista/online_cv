@@ -6,33 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/ddc277417a.js" crossorigin="anonymous"></script>
     <title>Tomáš Zaharowski - online CV</title>
 </head>
-<body>
+<body class="text-gray-700">
     
-    <div class="container mx-auto">
-
-        
-    <header class="bg-red-200">
+    <header class="bg-gray-800 shadow-lg h-16">
         header
     </header>
+
+    <div class="container mx-auto">
 
    <section class="bg-white">
         
         <main class="p-16 flex items-center justify-between">
 
-            <div class="w-1/2">
-                <h1 class="text-6xl font-mono mb-4">Hello world!</h1>
-                <p class="font-mono  mb-8">Děkuji, že máte zájem dozvědět se o mě více informací. Mé jméno je Tomáš Zaharowski a v současné době se věnuji web developmentu a vývoji interních webových aplikací pro společnost O2. Konkrétně působím v divizi HR v oddělení Vzdělávání. Má práce je orientovaná primárně na onborading nových zaměstnanců, digitalizaci vzdělávání a práci s LMS. V současné době mám za sebou vývoj aplikace, která nabízí online náhled na výsledky všech kurzů, nebo aplikaci pro nováčký, která usnadňuje remote onboarding. </p>
+            <div class="lg:w-1/2">
+                <h1 class="text-4xl font-mono mb-4"> Tomáš Zaharowski - web developer </h1>
+                <p class="font-mono  mb-8">Děkuji, že máte zájem dozvědět se o mě více informací. Mé jméno je Tomáš Zaharowski a v současné době se věnuji web developmentu a vývoji interních webových aplikací pro společnost O2. Konkrétně působím v divizi HR v oddělení Vzdělávání. Má práce je orientovaná primárně na onborading nových zaměstnanců, digitalizaci vzdělávání a práci s LMS. V současné době mám za sebou vývoj aplikace, která nabízí online náhled na výsledky všech kurzů, nebo aplikaci pro nováčky, která usnadňuje remote onboarding. </p>
                 <div class="flex space-x-4">
-                    <button class="text-lg font-bold py-2 px-4 text-white bg-green-600 shadow-lg rounded-lg"><i class="bi bi-github"></i> Přejí na GitHub</p></button>
-                    <button class="text-lg font-bold py-2 px-4 text-white bg-blue-900 shadow-lg rounded-lg"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="255 255 255 "><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg> Přejí na LinkedIN</p></button>
+                    <button class="text-lg font-bold py-2 px-4 text-white bg-blue-900 shadow-sm rounded-lg"> Přejí na LinkedIN</p></button>
+                    <a href="https://github.com/zahista" target="_blank">
+                        <button class="transition-transform transform hover:scale-105 hover:bg-green-500 text-lg font-bold py-2 px-4 text-white bg-green-600 shadow-sm hover:shadow-xl rounded-lg"><i class="bi bi-github"></i> Přejí na GitHub</p></button>
+                   </a> 
                 </div>
             </div>
 
 
           
-                <div class="w-1/4 transform rotate-2 relative shadow-2xl">
+                <div class="w-1/4 transform rotate-2 relative shadow-2xl hidden lg:inline">
                     <img class="" src="assets/P68769_2020_002_photo_PHOTO_PHOTO.jpg" alt="me">
                 </div>
                
@@ -43,64 +45,68 @@
 
    </section>
 
-   <section class="p-16">
+        
+   <section class="p-16 font-mono">
         
         <div>
-            <h1 class="text-xl font-bold font-mono">Technologický stack</h1>
+            <h1 class="text-xl font-bold "> <i class="bi bi-code"></i> Technologický stack <i class="bi bi-code-slash"></i></h1>
             <div class="flex justify-between">
                 <ul class="ml-4 p-4">
-                    <li>PHP 7.4.x - aktivně využívám</li>
-                    <li>MySQL, MsSQL databáze - aktivně využívám</li>
-                    <li>GitHub, Git, GitHub Desktop - aktivně využívám</li>
-                    <li>Dibi - občas využívám</li>
-                    <li>MeDoo - občas využívám</li>
-                    <li>HTML 5 - aktivně využívám </li>
-                    <li>CSS 3 - aktivně využívám </li>
-                    <li>TailwindCSS - aktivně a rád využívám </li>
-                    <li>Lumen 5.x  - zrovna se učím </li>
-                    <li>Laravel 5.x  - plánuji se naučit </li>
-                    <li>jQuery 3.x  - aktivně využívám</li>
-                    <li>Vue.JS - plánuji se naučit</li>
+                    <li><i class="bi bi-hash"></i> PHP 7.4.x - aktivně využívám</li>
+                    <li><i class="bi bi-hash"></i> MySQL, MsSQL databáze - aktivně využívám</li>
+                    <li><i class="bi bi-hash"></i> GitHub, Git, GitHub Desktop - aktivně využívám</li>
+                    <li><i class="bi bi-hash"></i> Dibi - občas využívám</li>
+                    <li><i class="bi bi-hash"></i> MeDoo - občas využívám</li>
+                    <li><i class="bi bi-hash"></i> HTML 5 - aktivně využívám </li>
+                    <li><i class="bi bi-hash"></i> CSS 3 - aktivně využívám </li>
+                    <li><i class="bi bi-hash"></i> TailwindCSS - aktivně a rád využívám </li>
+                    <li><i class="bi bi-hash"></i> Lumen 5.x  - zrovna se učím </li>
+                    <li><i class="bi bi-hash"></i> Laravel 5.x  - plánuji se naučit </li>
+                    <li><i class="bi bi-hash"></i> jQuery 3.x  - aktivně využívám</li>
+                    <li><i class="bi bi-hash"></i> Vue.JS - plánuji se naučit</li>
                 </ul>
 
-                <ul class="ml-4 p-4">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
+               <div class="p-4 flex space-x-8">
+                <img src="" alt="asdasd">
+                <img src="" alt="asdasd">
+                <img src="" alt="asdasd">
+                <img src="" alt="asdasd">
+                
+               </div>
             </div>
            
         </div>
         <div>
-            <h1 class="text-xl font-bold font-mono">Netechnologický stack</h1>
+            <h1 class="text-xl font-bold "><i class="bi bi-collection"></i> Netechnologický stack</h1>
             <div class="flex justify-between">
                 <ul class="ml-4 p-4">
-                    <li>Adobe XD - tvorba prototypů</li>
-                    <li>Sketch - tvorba prototypů (v symbiozé s Tailwind CSS)</li>
-                    <li>Affinity Photo - manipulace grifkých prvků</li>
-                    <li></li>
+                    <li><i class="bi bi-hash"></i> Adobe XD - tvorba prototypů</li>
+                    <li><i class="bi bi-hash"></i> Sketch - tvorba prototypů (v symbiozé s Tailwind CSS)</li>
+                    <li><i class="bi bi-hash"></i> Affinity Photo - manipulace grifkých prvků</li>
+                
                     
                 </ul>
 
                 <ul class="ml-4 p-4">
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li><i class="bi bi-hash"></i> Adobe XD - tvorba prototypů</li>
+                    <li><i class="bi bi-hash"></i> Sketch - tvorba prototypů (v symbiozé s Tailwind CSS)</li>
+                    <li><i class="bi bi-hash"></i> Affinity Photo - manipulace grifkých prvků</li>
+                    
                 </ul>
             </div>
            
         </div>
         <div>
-            <h1 class="text-xl font-bold font-mono">Další dovednosti</h1>
+            <h1 class="text-xl font-bold font-mono"><i class="bi bi-clipboard-check"></i> Další dovednosti</h1>
             <div class="flex justify-between">
                 <ul class="ml-4 p-4">
-                   <li></li>
+                    <li><i class="bi bi-hash"></i> Adobe XD - tvorba prototypů</li>
+                    <li><i class="bi bi-hash"></i> Sketch - tvorba prototypů (v symbiozé s Tailwind CSS)</li>
+                    <li><i class="bi bi-hash"></i> Affinity Photo - manipulace grifkých prvků</li>
                 </ul>
 
                 <ul class="ml-4 p-4">
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                   
                 </ul>
             </div>
            
@@ -111,11 +117,17 @@
     
    </section>
 
-   <footer class="bg-yellow-200 p-16">
+   
+   <footer class="bg-yellow-100 p-16 shadow-2xl font-mono ">
         
     <div>
-        <h1 class="text-xl font-bold font-mono">Kontaktujte mě :)</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente id labore, molestiae ratione eaque impedit accusamus quidem suscipit mollitia et ipsum, ipsam soluta! Consectetur fuga ut mollitia, ea eveniet ipsum!</p>
+        <h1 class="text-2xl font-bold mb-4"><i class="bi bi-mailbox"></i> Kontaktujte mě</h1>
+        
+        <ul class="ml-8 ">
+            <li><i class="bi bi-google"></i> tomas.zaharowski@gmail.com</li>
+            <li><i class="bi bi-instagram"></i> @zahi_music</li>
+        </ul>
+
     </div>
 
     </footer>
