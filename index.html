@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,66 @@
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <script src="https://kit.fontawesome.com/ddc277417a.js" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <title>Tomáš Zaharowski - online CV</title>
 </head>
+
 <body>
-//-----
+
+    <header class="flex items-center justify-center p-8">
+        <nav class="space-x-8">
+            <a href="">Moje práce</a>
+            <a href="/assets/Tomáš Zaharowski.pdf">Stáhnout životopis</a>
+        </nav>
+    </header>
+
+    <main class="lg:container mx-auto lg:w-2/3">
+
+        <h1 class="lg:text-xl text-md text-center mx-aut p-4 lg:p-8 text-gray-500 mb-8">
+            Ahoj 👋🏻 jsem Tomáš a vítám tě tady! Jsem nadšenec do vývoje produktu od návrhu až po vývoj. <br> <br>
+            Mým cílem je vytvářet digitální produkty, které jsou intuitivní, esteticky příjemné a snadno použitelné. V portfoliu najdete ukázky mých projektů včetně náhledů na výsledné produkty a popisů procesu návrhu. 
+            
+            <br><br>
+            Doufám, že vás mé práce osloví a těším se na spolupráci!
+        </h1>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:px-16">
+
+
+
+            <div class="relative" x-data="{showOverlay: false}" @mouseover="showOverlay = true"
+                @mouseout="showOverlay = false">
+                <img src="/assets/PixelBook Go.png" alt="" class=" bg-blue-50 p-8 rounded-lg">
+                <div x-show="showOverlay" href="seznam.cz" x-transition.duration.500ms
+                    class="w-full h-full bg-gray-900 bg-opacity-70 absolute top-0 left-0 flex items-center justify-center text-white text-4xl font-bold rounded-lg z-10">
+                    <a href="liveboard.html">Liveboard</a>
+                </div>
+            </div>
+
+
+            <div class="relative" x-data="{showOverlay: false}" @mouseover="showOverlay = true"
+                @mouseout="showOverlay = false">
+                <img src="assets/iMac 24 inch.png" alt="" class=" bg-green-50 p-8 rounded-lg">
+                <div x-show="showOverlay" href="seznam.cz" x-transition.duration.500ms
+                    class="w-full h-full bg-gray-900 bg-opacity-70 absolute top-0 left-0 flex items-center justify-center text-white text-4xl font-bold rounded-lg z-10">
+                    <a href="seznam.cz">Rezervační portál</a>
+                </div>
+            </div>
+
+
+            <div class="relative" x-data="{showOverlay: false}" @mouseover="showOverlay = true"
+                @mouseout="showOverlay = false">
+                <img src="assets/iMac 24 inch.png" alt="" class=" bg-purple-50 p-8 rounded-lg">
+                <div x-show="showOverlay" href="seznam.cz" x-transition.duration.500ms
+                    class="w-full h-full bg-gray-900 bg-opacity-70 absolute top-0 left-0 flex items-center justify-center text-white text-4xl font-bold rounded-lg z-10">
+                    <a href="seznam.cz">Registrační QR</a>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </main>
 </body>
+
 </html>
