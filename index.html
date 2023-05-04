@@ -52,20 +52,20 @@
             <div class="relative" x-data="{showOverlay: false}" @mouseover="showOverlay = true"
                 @mouseout="showOverlay = false">
                 <img src="/assets/PixelBook Go.png" alt="" class=" bg-blue-50 p-8 rounded-lg">
-                <div x-show="showOverlay" href="seznam.cz" x-transition.duration.500ms
+                <a href="liveboard.html" x-show="showOverlay" href="seznam.cz" x-transition.duration.500ms
                     class="w-full h-full bg-gray-900 bg-opacity-70 absolute top-0 left-0 flex items-center justify-center text-white text-4xl font-bold rounded-lg z-10">
-                    <a href="liveboard.html">Liveboard</a>
-                </div>
+                    Liveboard
+                </a>
             </div>
 
 
             <div class="relative" x-data="{showOverlay: false}" @mouseover="showOverlay = true"
                 @mouseout="showOverlay = false">
                 <img src="/assets/mock_ucebny.png" alt="" class=" bg-green-50 p-8 rounded-lg">
-                <div x-show="showOverlay" href="seznam.cz" x-transition.duration.500ms
+                <a href="ucebny.html" x-show="showOverlay" href="seznam.cz" x-transition.duration.500ms
                     class="w-full h-full bg-gray-900 bg-opacity-70 absolute top-0 left-0 flex items-center justify-center text-white text-4xl font-bold rounded-lg z-10">
-                    <a href="ucebny.html">Rezervační portál</a>
-                </div>
+                    Rezervační portál
+                </a>
             </div>
 
         </div>
